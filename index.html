@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latian form kontak</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+</head>
+<body>
+    <div class="container-fluid py-5 mx-auto px-5">
+        <div class="card border-0">
+            <div class="row d-flex">
+                <div class ="col-lg-6">
+                    <div class="pb-5">
+                        <div class="row">
+                            <img class="logo" src="img/Olive.jpg" alt="logo">
+                        </div>
+                        <div class="row px-3 justify-content-center mt-4 mb-5 borderline">
+                            <img class="image" src="img/ilustrasi.jpg" alt="ilustrasi">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card2 card border-0 px-4 py-5">
+                        <h1 class="row mb-4 px-3 text-center">Welcome to Olive Media Online</h1>                            
+                        <div class="row px-3 mb-4">
+                            <div class="line"></div>
+                        </div>
+                        <form action="index.html" onsubmit="return submitForm()">
+                            <div class="row px-3">
+                                <label for="email" class="mb-1">
+                                    <h6 class="mb-0 text-sm">Email Anda</h6>
+                                </label>
+                                <input type="email" name="email" id="email" class="mb-4" placeholder="Masukkan email anda!" required>
+                            </div>
+                            <div class="row px-3">
+                                <label for="password" class="mb-1">
+                                    <h6 class="mb-0 text-sm">Password Anda</h6>
+                                </label>
+                                <input type="password" name="password" id="password" class="mb-4" placeholder="Masukkan password anda!" required>
+                            </div>
+                            <div class="row px-3 mb-4">
+                                <a href="#" class="ml-auto mb-0 text-sm">Lupa Password</a>
+                            </div>
+                            <div class="row mb-3 px-3">
+                                <button type="submit" class="btn btn-blue text-center" name="login" id="login" value="login">Login</button>
+                            </div>
+                        </form>
+                        <div class="row mb-4 px-3">
+                            <h6 class="font-weight-bold">Belum punya akun? <a href="#" class="text-danger"> Register sekarang!</a></h6>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <center>
+                    <h5 class="font-weight-bold">Have a message for us? Please drop <a href="contact.html" class="text-danger">here</a>.</h5></h5>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="py-4">
+        <center>
+            <small class="ml-4 text-white">
+                Copyright &copy; Apotek Olive Medika 2021 All rights reserved.
+            </small>
+        </center>
+    </div>
+</body>
+</html>
